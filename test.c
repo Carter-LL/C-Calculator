@@ -40,10 +40,10 @@ void main()
     int numbers[2];
 
     int index = 0;
-    while (split != NULL) {
+    while (split != 0x0) {
         numbers[index] = atoi(split);
         printf("Number = %d\n", numbers[index]);
-        split = strtok(NULL, delimiter); // Continue tokenizing the rest of the string
+        split = strtok(0x0, delimiter); // Continue tokenizing the rest of the string
         index++;
     }
 
