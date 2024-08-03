@@ -30,6 +30,7 @@ void main()
         else 
         {
             printf("not found %s \n", operators[i]);
+            return;
         }
     }
 
